@@ -1,0 +1,13 @@
+PyPDF2
+wordcloud
+top2vec
+top2vec[sentence_encoders]
+top2vec[sentence_transformers]
+top2vec[indexing]
+bertopic
+scrapy
+LDA 
+NLTK
+pyLDAvis
+seaborn
+little_mallet_wrapper
