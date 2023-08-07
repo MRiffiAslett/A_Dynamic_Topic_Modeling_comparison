@@ -13,7 +13,7 @@ This project was designed with a dual focus:
 
 The data utilized in this study was methodically collected from the GOV.uk website. We employed web scraping techniques and managed to gather a substantial corpus of 5898 articles from the news section, using "environment" as a keyword.
 
-<p float="center">
+<p align="center">
   <img src="./Data/Png/plot_Title_cloud.png" width="45%" alt="Word cloud of the Titles"/>
   <img src="./Data/Png/plot_content_cloud.png" width="45%" alt="Word cloud of the content"/> 
 </p>
@@ -22,17 +22,18 @@ The data utilized in this study was methodically collected from the GOV.uk websi
 
 ## 📈 Results
 
-<p float="center">
+<p align="center">
   <img src="./Data/Png/topic_1_Top2vec_[_wast_, _legitim_, _topicwast_, _crime_]_plot_with_SE.png" width="45%" alt="Top2Vec Dynamic topic 1"/>
   <img src="./Data/Png/topic_19_BERTopic_ivori africa uk eleph african uganda ban trade angolan minist_plot_with_SE (1).png" width="45%" alt="BERTopic Dynamic topic 19"/>
 </p>
+
 
 **Figure 3:** This is a visual representation of Top2Vec Dynamic Topic 1, featuring key terms like "wast", "legitim", "topicwast", and "crime". The plot is based on the Gov.UK corpus from 01/01/2012 to 01/05/2023.
 
 **Figure 4:** This plot depicts BERTopic Dynamic Topic 19, highlighting keywords such as "ivori", "Africa", "UK", "eleph", "African", "Uganda", "ban", and "trade". The data comes from the Gov.UK corpus spanning 01/01/2012 to 01/05/2023.
 
 <div align="center">
-    <img src="./Data/Png/coherence_scores.png" width="400" alt="Violin plot of coherence scores">
+    <img src="./Data/Png/coherence_scores.png" width="385" alt="Violin plot of coherence scores">
 </div>
 
 **Figure 5:** This violin plot demonstrates the distribution of CV Coherence Scores from four distinct topic modelling methods: Latent Dirichlet Allocation (LDA), Non-negative Matrix Factorization (NNMF), Top2Vec, and BERTopic. The coherence scores are represented on a scale from 0 to 1, where a higher value is indicative of better topic quality. The corpus is sourced from Gov.UK (01/01/2012 to 01/05/2023).
