@@ -75,7 +75,7 @@ The study revealed that neural network-based techniques, specifically Top2Vec an
   - `saved_plots_SE`: Plots from the dynamic topic modelling approach with standard error
   - `Dynamic_Top2Vec.ipynb`: Jupyter notebook for hyperparameter tuning, model execution, and analysis
   - `requirements.txt`: Necessary dependencies
-- ** Web_Scraper **:
+- **Web_Scraper**:
   - `Web_Scraper`: script the scrape the article's content, title and date 
   - `myspider`: crawler that scrapes the list of URL's from the Gov.uk website
 - `Plot.py`: Python file with functions for plotting model outputs, implementing EMA, calculating standard error, and evaluating topic coherence
