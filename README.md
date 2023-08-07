@@ -13,7 +13,7 @@ This project was designed with a dual focus:
 
 The data utilized in this study was methodically collected from the GOV.uk website. We employed web scraping techniques and managed to gather a substantial corpus of 5898 articles from the news section, using "environment" as a keyword.
 
-<p float="left">
+<p float="center">
   <img src="./Data/Png/plot_Title_cloud.png" width="45%" alt="Word cloud of the Titles"/>
   <img src="./Data/Png/plot_content_cloud.png" width="45%" alt="Word cloud of the content"/> 
 </p>
@@ -22,7 +22,7 @@ The data utilized in this study was methodically collected from the GOV.uk websi
 
 ## 📈 Results
 
-<p float="left">
+<p float="center">
   <img src="./Data/Png/topic_1_Top2vec_[_wast_, _legitim_, _topicwast_, _crime_]_plot_with_SE.png" width="45%" alt="Top2Vec Dynamic topic 1"/>
   <img src="./Data/Png/topic_19_BERTopic_ivori africa uk eleph african uganda ban trade angolan minist_plot_with_SE (1).png" width="45%" alt="BERTopic Dynamic topic 19"/>
 </p>
@@ -74,7 +74,10 @@ The study revealed that neural network-based techniques, specifically Top2Vec an
   - `saved_plots_SE`: Plots from the dynamic topic modelling approach with standard error
   - `Dynamic_Top2Vec.ipynb`: Jupyter notebook for hyperparameter tuning, model execution, and analysis
   - `requirements.txt`: Necessary dependencies
-
+- ** Web_Scraper **:
+  - `Web_Scraper`: script the scrape the article's content, title and date 
+  - `myspider`: crawler that scrapes the list of URL's from the Gov.uk website
 - `Plot.py`: Python file with functions for plotting model outputs, implementing EMA, calculating standard error, and evaluating topic coherence
 
 - `Preprocessing.py`: Python file carrying out all preprocessing steps
+  
