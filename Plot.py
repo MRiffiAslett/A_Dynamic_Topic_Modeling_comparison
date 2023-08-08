@@ -23,7 +23,7 @@ def plot_df(df, df_sample_size, df_std_dev, model, span_size=12, add_error_bars=
     # Loop over every column
     for i, column in enumerate(df.columns):
         # Apply moving average
-        df_smoothed =  df[column].ewm(span=span_size).mean()
+        df_smoothed =  df[column].rolling(window=span_size).mean()
 
         fig, ax = plt.subplots(figsize=(10, 5))
         ax.set_xlabel("Date in Months (From January 2012 to May 2023)")
@@ -61,7 +61,7 @@ def plot_df(df, df_sample_size, df_std_dev, model, span_size=12, add_error_bars=
     
     for i, column in enumerate(df.columns):
         # Compute the EMA for a 12 month window as discussed in Section 3.3.1
-        df_smoothed =  df[column].ewm(span=span_size).mean()
+        df_smoothed =  df[column].rolling(window=span_size).mean()
 
         if add_error_bars:
             std_error = df_std_dev[column] / np.sqrt(df_sample_size[column])
