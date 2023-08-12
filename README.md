@@ -7,11 +7,11 @@ Welcome to this comprehensive repository of a dissertation project undertaken fo
 This project was designed with a dual focus:
 
 1. Perform an in-depth critical assessment and comparison of four prevailing dynamic topic modelling frameworks, namely Non-Negative Matrix Factorization (NMF), Latent Dirichlet Allocation (LDA), Top2Vec, and BERTopic.
-2. Leveraging these advanced dynamic topic modelling techniques, the project aims to analyse public discourse on environmental topics. The rich insights gained from this analysis can provide a robust tool to assist policymakers in media coverage assessment, alignment of messaging with current trending issues, and devising more nuanced, effective, and responsive strategies. 
+2. Leveraging these dynamic topic modelling techniques, the project aims to analyse public discourse on environmental topics. The insights gained from this analysis can provide a  tool to assist policymakers in media coverage assessment, alignment of messaging with current trending issues, and devising more nuanced, effective, and responsive strategies. 
 
 ## 📊 Data Source and Collection
 
-The data utilized in this study was methodically collected from the GOV.uk website. We employed web scraping techniques and managed to gather a substantial corpus of 5898 articles from the news section, using "environment" as a keyword.
+The data utilized in this study was  collected from the GOV.uk website. We employed web scraping techniques and managed to gather a  corpus of 5898 articles from the news section, using "environment" as a keyword.
 
 <p align="center">
   <img src="./Data/Png/plot_Title_cloud.png" width="45%" alt="Word cloud of the Titles"/>
