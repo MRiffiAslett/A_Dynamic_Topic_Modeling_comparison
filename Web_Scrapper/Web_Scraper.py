@@ -29,11 +29,6 @@ for i, url in enumerate(URLs):
     json_data[i]["content"] = text
     json_data[i]["date"] = date if date else "Date not found"
 
-
-
-
-
-
 # write the updated JSON data to a new file
 with open('updated_' + sys.argv[1], 'w') as f:
     json.dump(json_data, f, indent=2)
